@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ys-status"
+  },
+  "targets": {
+    "ys-status": {
+      "hosting": {
+        "YS-status": [
+          "ys-status"
+        ]
+      }
+    }
+  }
+}

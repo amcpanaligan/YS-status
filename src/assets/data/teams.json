@@ -1,0 +1,175 @@
+{
+	"teams": [
+		{
+			"name": "Leadership",
+			"members": [
+				{
+					"name": "Alain"
+				},
+				{
+					"name": "Pat"
+				},
+				{
+					"name": "Rey"
+				}
+			]
+		},
+		{
+			"name": "Atomatest",
+			"members": [
+				{
+					"name": "Roan"
+				},
+				{
+					"name": "Lito"
+				},
+				{
+					"name": "Andrei"
+				}
+			]
+		},
+		{
+			"name": "IDSC",
+			"members": [
+				{
+					"name": "Ed"
+				},
+				{
+					"name": "Yu"
+				},
+				{
+					"name": "Andrei"
+				}
+			]
+		},
+		{
+			"name": "Fleet Forum",
+			"members": [
+				{
+					"name": "Andrew"
+				},
+				{
+					"name": "NJ"
+				}
+			]
+		},
+		{
+			"name": "Vuma",
+			"members": [
+				{
+					"name": "Shai"
+				},
+				{
+					"name": "Emy"
+				},
+				{
+					"name": "Joey"
+				},
+				{
+					"name": "Jolo"
+				},
+				{
+					"name": "Roan"
+				}
+			]
+		},
+		{
+			"name": "ZQR",
+			"members": [
+				{
+					"name": "Benj"
+				},
+				{
+					"name": "Nat"
+				},
+				{
+					"name": "Nigel"
+				},
+				{
+					"name": "Rie"
+				},
+				{
+					"name": "Nikos"
+				}
+			]
+		},
+		{
+			"name": "Globaltrack",
+			"members": [
+				{
+					"name": "Steph"
+				},
+				{
+					"name": "Jiff"
+				},
+				{
+					"name": "Gab"
+				},
+				{
+					"name": "Aldrin"
+				},
+				{
+					"name": "Nikos"
+				}
+			]
+		},
+		{
+			"name": "UtilWize",
+			"members": [
+				{
+					"name": "Ejay"
+				}
+			]
+		},
+		{
+			"name": "CBC",
+			"members": [
+				{
+					"name": "Nate"
+				},
+				{
+					"name": "FJ"
+				},
+				{
+					"name": "Jun"
+				}
+			]
+		},
+		{
+			"name": "Wesbank",
+			"members": [
+				{
+					"name": "Harry"
+				}
+			]
+		},
+		{
+			"name": "UX",
+			"members": [
+				{
+					"name": "Jun"
+				},
+				{
+					"name": "Vonne"
+				},
+				{
+					"name": "Bren"
+				}
+			]
+		},
+		{
+			"name": "HR",
+			"members": [
+				{
+					"name": "Lyn"
+				},
+				{
+					"name": "Raz"
+				},
+				{
+					"name": "EJ"
+				}
+			]
+		}
+	]
+}
