@@ -1,20 +1,6 @@
 {
 	"teams": [
 		{
-			"name": "Leadership",
-			"members": [
-				{
-					"name": "Alain"
-				},
-				{
-					"name": "Pat"
-				},
-				{
-					"name": "Rey"
-				}
-			]
-		},
-		{
 			"name": "Atomatest",
 			"members": [
 				{
@@ -212,6 +198,20 @@
 				},
 				{
 					"name": "Bren"
+				}
+			]
+		},
+		{
+			"name": "Leadership",
+			"members": [
+				{
+					"name": "Alain"
+				},
+				{
+					"name": "Pat"
+				},
+				{
+					"name": "Rey"
 				}
 			]
 		},
