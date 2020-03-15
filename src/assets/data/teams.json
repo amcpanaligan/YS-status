@@ -216,7 +216,7 @@
 			]
 		},
 		{
-			"name": "HR",
+			"name": "HR/Admin",
 			"members": [
 				{
 					"name": "Lyn"
@@ -226,6 +226,9 @@
 				},
 				{
 					"name": "EJ"
+				},
+				{
+					"name": "Princess"
 				}
 			]
 		}
