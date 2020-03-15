@@ -2,8 +2,8 @@
 
 	<div class="row">
 		<div class="col-12">
-			<ngb-tabset [destroyOnHide]="false" *ngIf="(teams | async) !== null">
-				<ngb-tab *ngFor="let team of teams | async" title="{{team.name}}">
+			<ngb-tabset #tabSet="ngbTabset" [destroyOnHide]="false" [hidden]="(teams | async) === null">
+				<ngb-tab *ngFor="let team of teams | async" id="{{team.name}}" title="{{team.name}}">
 					<ng-template ngbTabContent>
 						<div class="col-12 col-sm-6 col-md-6 col-lg-6">
 							<table class="table">
@@ -25,7 +25,7 @@
 												{{member.lastUpdate === undefined ? '-' : (member.lastUpdate | amCalendar)}}</p>
 										</td>
 										<td>
-											<ui-switch (change)="onChange($event, member, team)" [(ngModel)]="member.active" size="small">
+											<ui-switch (change)="onChange($event, member, team, team.name)" [(ngModel)]="member.active" size="small">
 											</ui-switch>
 										</td>
 									</tr>
@@ -35,7 +35,7 @@
 					</ng-template>
 				</ngb-tab>
 
-				<ngb-tab title="All" *ngIf="(teams | async) !== null">
+				<ngb-tab id="all" title="All" [hidden]="(teams | async) === null">
 					<ng-template ngbTabContent>
 						<div class="row">
 							<ng-container *ngFor="let team of teams | async">
@@ -62,7 +62,7 @@
 														{{member.lastUpdate === undefined ? '-' : (member.lastUpdate | amCalendar)}}</p>
 												</td>
 												<td>
-													<ui-switch (change)="onChange($event, member, team)" [(ngModel)]="member.active" size="small">
+													<ui-switch (change)="onChange($event, member, team, 'all')" [(ngModel)]="member.active" size="small">
 													</ui-switch>
 												</td>
 											</tr>

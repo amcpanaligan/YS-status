@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { AngularFireDatabase, AngularFireList } from '@angular/fire/database';
 import 'firebase/database';
 
@@ -16,6 +16,7 @@ export class AppComponent implements OnInit, OnDestroy {
   destroy$: Subject<boolean> = new Subject<boolean>();
   teams: any;
   teamsRef: AngularFireList<Team>;
+  @ViewChild('tabSet', null) tabSet: any;
 
   constructor(private db: AngularFireDatabase) {
     this.teamsRef = this.db.list('/teams');
@@ -35,7 +36,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void { }
 
-  onChange($event, member: Member, team: Team): void {
+  onChange($event, member: Member, team: Team, teamName): void {
     member.lastUpdate = new Date();
 
     //// The Boolean Toggle triggers a little bit firing the update first
@@ -43,10 +44,10 @@ export class AppComponent implements OnInit, OnDestroy {
     setTimeout(() => {
       this.teamsRef.update(team.key, { members: team.members }).then(() => {
         //// response has no content
-        // member.loading = false;
         console.info('Update complete');
+        this.tabSet.select(teamName);
       }).catch((err) => {
-        // member.loading = false;
+        console.error(err);
         alert('This is a cheap alert however, something wrong happened! Contact the developer');
       });
     })
