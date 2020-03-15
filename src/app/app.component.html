@@ -22,7 +22,7 @@
 										</td>
 										<td>
 											<p ngbTooltip="{{member.lastUpdate | amDateFormat: 'YYYY-MM-DD HH:mm'}}">
-													{{member.lastUpdate === undefined ? '-' : (member.lastUpdate | amCalendar)}}</p>
+												{{member.lastUpdate === undefined ? '-' : (member.lastUpdate | amCalendar)}}</p>
 										</td>
 										<td>
 											<ui-switch (change)="onChange($event, member, team)" [(ngModel)]="member.active" size="small">
@@ -58,8 +58,7 @@
 													<strong>{{member.name}}</strong>
 												</td>
 												<td>
-													<i class="fa fa-spinner fa-spin" *ngIf="member.loading"></i>
-													<p *ngIf="!member.loading" ngbTooltip="{{member.lastUpdate | amDateFormat: 'YYYY-MM-DD HH:mm'}}">
+													<p ngbTooltip="{{member.lastUpdate | amDateFormat: 'YYYY-MM-DD HH:mm'}}">
 														{{member.lastUpdate === undefined ? '-' : (member.lastUpdate | amCalendar)}}</p>
 												</td>
 												<td>
@@ -80,5 +79,5 @@
 </div>
 
 <div class="container h-100 d-flex justify-content-center">
-		<i class="fa fa-spinner fa-5x fa-spin" *ngIf="(teams | async) === null"></i>
- </div>
+	<i class="fa fa-spinner fa-5x fa-spin" *ngIf="(teams | async) === null"></i>
+</div>
