@@ -17,5 +17,6 @@ You can change your status in your respective Team Tab or in the "All" tab. Chan
 
 ## Known Issues
  - When you hit the toggle button, the last update cell flickers. This only happens on your screen and not on other users that receives the update
+ - When you hit the toggle button, the whole app might flicker. There is a known hack in place that keeps the state of the selected tab. Without it, the tab selection resets everytime.
  - Overall UX improvements e.g. Spinners, Overall Layout
 
