@@ -114,14 +114,6 @@
 			]
 		},
 		{
-			"name": "UtilWize",
-			"members": [
-				{
-					"name": "Ejay"
-				}
-			]
-		},
-		{
 			"name": "CBC",
 			"members": [
 				{
@@ -129,17 +121,83 @@
 				},
 				{
 					"name": "FJ"
-				},
-				{
-					"name": "Jun"
 				}
 			]
 		},
 		{
-			"name": "Wesbank",
+			"name": "Wesbank/YourBI/UtilWize",
 			"members": [
 				{
 					"name": "Harry"
+				},
+				{
+					"name": "Chris"
+				},
+				{
+					"name": "Ejay"
+				}
+			]
+		},
+		{
+			"name": "Carelever",
+			"members": [
+				{
+					"name": "Billy"
+				},
+				{
+					"name": "Jus"
+				},
+				{
+					"name": "Mark"
+				},
+				{
+					"name": "Norman"
+				},
+				{
+					"name": "Clave"
+				},
+				{
+					"name": "Averie"
+				},
+				{
+					"name": "Genesis"
+				},
+				{
+					"name": "Renz"
+				},
+				{
+					"name": "CJ"
+				},
+				{
+					"name": "Chris"
+				}
+			]
+		},{
+			"name": "#stratapp",
+			"members": [
+				{
+					"name": "Sarah"
+				},
+				{
+					"name": "Neil"
+				},
+				{
+					"name": "Mak"
+				},
+				{
+					"name": "Chiko"
+				},
+				{
+					"name": "Seig"
+				},
+				{
+					"name": "Jel"
+				},
+				{
+					"name": "Maco"
+				},
+				{
+					"name": "Jesther"
 				}
 			]
 		},
