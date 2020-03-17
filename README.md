@@ -1,9 +1,9 @@
 # YSStatus
 A real time app for working status updates.
 
-For pure leisure and enjoyment, and during my free time, I created this app to show information whether teams/members are checked in/out. This might help Yousource in a work from home setup amid COVID-19.
+For pure leisure and enjoyment. I created this app to show information whether teams/members are checked in/out. This might help Yousource in a work from home setup amid COVID-19.
 
-The app's objective is to share working status between teams/members REAL TIME. An on/off toggle switch will be provided per team member to indicate their status. The app also writes the last time the status was updated. There is also an "All" view to check all teams.
+You can view status by team or everyone using the "All" tab.
 
 ## Disclaimer
 The application may get outdated overtime (e.g. members forgot to update it), thus the app is not recommended to be an "Absolute Source of Truth" whether a team member is actively working or not. Usual communication channels such as Skype shold still be considered as usual.
@@ -18,5 +18,6 @@ You can change your status in your respective Team Tab or in the "All" tab. Chan
 ## Known Issues
  - When you hit the toggle button, the last update cell flickers. This only happens on your screen and not on other users that receives the update
  - When you hit the toggle button, the whole app might flicker. There is a known hack in place that keeps the state of the selected tab. Without it, the tab selection resets everytime.
+ - Tooltip on the team view appears on the center of the cell rather than the text itself
  - Overall UX improvements e.g. Spinners, Overall Layout
 
